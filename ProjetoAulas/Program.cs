@@ -226,7 +226,7 @@ foreach(var item in lista)
 */
 
 // Dicionário
-
+/*
 var dicionario = new Dictionary<string, string>()
 {
     {"teste", "Teste"},
@@ -244,3 +244,29 @@ foreach(var item in dicionario)
 {
     Console.WriteLine("Valor: " + item.Value + " Chave: " + item.Key);
 }
+*/
+
+//Queue
+
+var queue = new Queue<string>();
+queue.Enqueue("Lucivaldo");
+queue.Enqueue("Queiroz");
+
+// FIFO O PRIMEIRO ITEM É O PRIMEIRO A SAIR
+
+//var nome = queue.Peek();
+//var nome1 = queue.Peek();
+
+var nome = queue.Dequeue();
+var nome1 = queue.Dequeue();
+
+Console.WriteLine(nome);
+Console.WriteLine(nome1);
+
+/*
+foreach(var item in queue)
+{
+    Console.WriteLine(item);
+}
+*/
+
