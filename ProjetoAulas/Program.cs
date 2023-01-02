@@ -342,7 +342,7 @@ else
 */
 
 //SWITCH 
-
+/*
 var diaDaSemana = 3;
 
 switch (diaDaSemana)
@@ -371,4 +371,15 @@ switch (diaDaSemana)
     default:
         Console.WriteLine("Dia da semana invalido");
         break;
+}
+*/
+
+// FOR 
+
+var lista = new List<string>() {"Rafael", "Curso", "CSHARP"};
+
+for(var i = 0; i < lista.Count; i++)
+{
+var nome = lista[i];
+    Console.WriteLine(nome);
 }
