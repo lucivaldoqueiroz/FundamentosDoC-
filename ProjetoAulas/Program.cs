@@ -8,7 +8,8 @@ namespace Application
         {
            // Console.WriteLine("Hello World!");
 
-           AulaClasses();
+           //AulaClasses();
+           AulaPropriedadeSomenteLeitura();
 
         }
 
@@ -22,6 +23,17 @@ namespace Application
            produto.Descricao = "Teclado";
            produto.ImprimirDescricao();
            Console.WriteLine(produto.GetId());
+        }
+
+         private static void AulaPropriedadeSomenteLeitura()
+        {
+           
+
+           var produto = new Cadastro.Produto();
+           produto.Descricao = "Mouse";
+           //produto.Estoque = 1;
+           Console.WriteLine(produto.Estoque);
+
         }
     }
 }
