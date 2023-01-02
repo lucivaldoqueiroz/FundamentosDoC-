@@ -60,6 +60,7 @@ Console.WriteLine(dividir);
 
 //Operadores relacionais
 
+/*
 var numero1 = 1;
 var numero2 = 2;
 
@@ -80,8 +81,18 @@ Console.WriteLine(maiorIgual);
 
 bool diferente = numero1 != numero2;
 Console.WriteLine(diferente);
+*/
 
+//Operadores Lógicos
 
+var numero1 = 1;
+var numero2 = 2;
 
+var eh = numero2 > numero1 && 8 > 7;
+Console.WriteLine(eh);
 
+var ou = numero2 > numero1 || 8 > 7;
+Console.WriteLine(ou);
 
+var negacao = !(numero2 > 10);
+Console.WriteLine(negacao);
