@@ -386,7 +386,7 @@ var nome = lista[i];
 */
 
 //FOREACH
-
+/*
 var lista = new List<string>() {"Rafael", "Curso", "CSHARP"};
 
 foreach(string item in lista)
@@ -398,3 +398,21 @@ foreach(var letra in "Lucivaldo Queiroz")
 {
     Console.WriteLine(letra);
 }
+*/
+
+// WHILE / DO WHILE
+
+var i = 3;
+while (i < 2)
+{
+    Console.WriteLine("var i = " + i);
+    //i += 1;
+    i++;
+}
+
+var j = 3;
+do
+{
+    Console.WriteLine("var j = " + j);
+    j++;
+} while (j < 2);
