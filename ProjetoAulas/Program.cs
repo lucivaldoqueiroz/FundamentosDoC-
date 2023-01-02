@@ -1,4 +1,5 @@
-﻿Console.WriteLine("Primeiro Programa");
+﻿/* 
+Console.WriteLine("Primeiro Programa");
 
 //Trabalhando com Variáveis.
 
@@ -35,4 +36,24 @@ Console.WriteLine(descricao);
 Multi lines
 Multi lines
 */ 
+
+// Operadores Aritméticos
+
+var soma = 5+2;
+Console.WriteLine(soma);
+
+var numero1 = 1;
+var numero2 = 2;
+var somar = numero1 + numero2;
+Console.WriteLine(somar);
+
+var subtração = numero2 - numero1;
+Console.WriteLine(subtração);
+
+var multiplicar = (numero2 * numero1) * 10;
+Console.WriteLine(multiplicar);
+
+var dividir = numero1 / numero2;
+Console.WriteLine(dividir);
+
 
