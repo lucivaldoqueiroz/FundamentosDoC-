@@ -247,7 +247,7 @@ foreach(var item in dicionario)
 */
 
 //Queue
-
+/*
 var queue = new Queue<string>();
 queue.Enqueue("Lucivaldo");
 queue.Enqueue("Queiroz");
@@ -270,3 +270,20 @@ foreach(var item in queue)
 }
 */
 
+// LIFO O ULTIMO A ENTRAR É O PRIMEIRO A SAIR DA MINHA LISTA.
+
+var stack = new Stack<string>();
+stack.Push("Lucivaldo");
+stack.Push("Queiroz");
+
+var nome = stack.Pop();
+var nome1 = stack.Pop();
+Console.WriteLine(nome);
+Console.WriteLine(nome1);
+
+/*
+foreach(var item in stack)
+{
+    Console.WriteLine(item);
+}
+*/
