@@ -186,7 +186,7 @@ arrayTipadoNumero[2] = 10;
 //Array.Resize(ref arrayTipadoNumero, 100);
 
 //arrayTipadoNumero[10] = 100;
-
+/*
 foreach(var item in arrayTipadoNumero)
 {
     Console.WriteLine(item);
@@ -198,6 +198,28 @@ arrayTipadoString[0] = "Lucivaldo";
 arrayTipadoString[1] = "Queiroz";
 
 foreach(var item in arrayTipadoString)
+{
+    Console.WriteLine(item);
+}
+*/
+
+//Lista Genérica
+
+var lista = new List<string>(10)
+{
+    "Lucivaldo",
+    "Queiroz",
+};
+
+//lista.Add("Lucivaldo");
+//lista.Add("Queiroz");
+//lista.Add("Curso");
+
+//var nome = lista[0];
+
+lista.RemoveAt(1);
+
+foreach(var item in lista)
 {
     Console.WriteLine(item);
 }
