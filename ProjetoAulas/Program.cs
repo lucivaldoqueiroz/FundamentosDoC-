@@ -177,7 +177,7 @@ foreach(var item in arrayList)
 
 //Array List tipado
 
-var arrayTipadoNumero = new int[3] {1, 2, 3};
+var arrayTipadoNumero = new int[3] { 1, 2, 3 };
 
 arrayTipadoNumero[0] = 5;
 arrayTipadoNumero[1] = 5;
@@ -305,7 +305,7 @@ else
      Console.WriteLine("Hoje não é Domingo");
 }
 */
-
+/*
 var diaDaSemana = 10;
 if(diaDaSemana == 0)
 {
@@ -338,4 +338,37 @@ else if(diaDaSemana == 6)
 else
 {
      Console.WriteLine("Dia da semana invalido");
+}
+*/
+
+//SWITCH 
+
+var diaDaSemana = 3;
+
+switch (diaDaSemana)
+{
+    case 0:
+        Console.WriteLine("Hoje é Domingo");
+        break;
+    case 1:
+        Console.WriteLine("Hoje é Segunda");
+        break;
+    case 2:
+        Console.WriteLine("Hoje é Terça");
+        break;
+    case 3:
+        Console.WriteLine("Hoje é Quarta");
+        break;
+    case 4:
+        Console.WriteLine("Hoje é Quinta");
+        break;
+    case 5:
+        Console.WriteLine("Hoje é Sexta");
+        break;
+    case 6:
+        Console.WriteLine("Hoje é Sabado");
+        break;
+    default:
+        Console.WriteLine("Dia da semana invalido");
+        break;
 }
