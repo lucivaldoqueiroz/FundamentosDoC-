@@ -100,9 +100,38 @@ Console.WriteLine(negacao);
 
 // Operador Ternário
 
+/*
 var numero1 = 1;
 var numero2 = 2;
 
 bool ativo = false;
 string status = ativo ? "Cadastro Ativo" : "Cadastro inativo";
 Console.WriteLine(status);
+*/
+
+// Funções
+
+
+
+EscreverNome();
+
+void EscreverNome()
+{
+var nome = NomeCompleto();
+var soma = SomaValores();
+
+Console.WriteLine(nome);
+Console.WriteLine(soma);
+}
+
+string NomeCompleto()
+{
+    string primeiroNome = "Lucivaldo";
+    string ultimoNoME = "Queiroz";
+    return primeiroNome + " " + ultimoNoME;
+}
+
+int SomaValores()
+{
+    return 8+2;
+}
