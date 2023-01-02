@@ -84,7 +84,7 @@ Console.WriteLine(diferente);
 */
 
 //Operadores Lógicos
-
+/*
 var numero1 = 1;
 var numero2 = 2;
 
@@ -96,3 +96,13 @@ Console.WriteLine(ou);
 
 var negacao = !(numero2 > 10);
 Console.WriteLine(negacao);
+*/
+
+// Operador Ternário
+
+var numero1 = 1;
+var numero2 = 2;
+
+bool ativo = false;
+string status = ativo ? "Cadastro Ativo" : "Cadastro inativo";
+Console.WriteLine(status);
