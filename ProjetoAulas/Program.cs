@@ -204,7 +204,7 @@ foreach(var item in arrayTipadoString)
 */
 
 //Lista Genérica
-
+/*
 var lista = new List<string>(10)
 {
     "Lucivaldo",
@@ -222,4 +222,25 @@ lista.RemoveAt(1);
 foreach(var item in lista)
 {
     Console.WriteLine(item);
+}
+*/
+
+// Dicionário
+
+var dicionario = new Dictionary<string, string>()
+{
+    {"teste", "Teste"},
+    {"teste6", "Teste 6"},
+};
+
+dicionario.Add("nome", "Lucivaldo");
+
+dicionario["curso"] = "Curso";
+
+var nome = dicionario["nome"];
+//Console.WriteLine(nome);
+
+foreach(var item in dicionario)
+{
+    Console.WriteLine("Valor: " + item.Value + " Chave: " + item.Key);
 }
