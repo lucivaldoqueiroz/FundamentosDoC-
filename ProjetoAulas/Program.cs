@@ -39,6 +39,7 @@ Multi lines
 
 // Operadores Aritméticos
 
+/*
 var soma = 5+2;
 Console.WriteLine(soma);
 
@@ -55,5 +56,32 @@ Console.WriteLine(multiplicar);
 
 var dividir = numero1 / numero2;
 Console.WriteLine(dividir);
+*/
+
+//Operadores relacionais
+
+var numero1 = 1;
+var numero2 = 2;
+
+bool igual = numero1 == numero2;
+Console.WriteLine(igual);
+
+bool maior = numero1 > numero2;
+Console.WriteLine(maior);
+
+bool menor = numero1 < numero2;
+Console.WriteLine(menor);
+
+bool menorIgual = numero1 <= numero2;
+Console.WriteLine(menorIgual);
+
+bool maiorIgual = numero1 >= numero2;
+Console.WriteLine(maiorIgual);
+
+bool diferente = numero1 != numero2;
+Console.WriteLine(diferente);
+
+
+
 
 
