@@ -26,5 +26,13 @@ Console.WriteLine(ativo);
 //Constantes - Não pode ser alterado o valor de uma constante que foi atribuida a variável.
 
 const string descricao = "Curso CSHARP";
-descricao = "Curso";
+//descricao = "Curso";
 Console.WriteLine(descricao);
+
+//Comentários
+// - comentário simples
+/* 
+Multi lines
+Multi lines
+*/ 
+
