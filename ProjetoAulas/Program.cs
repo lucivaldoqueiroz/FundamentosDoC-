@@ -35,7 +35,7 @@ Console.WriteLine(descricao);
 /* 
 Multi lines
 Multi lines
-*/ 
+*/
 
 // Operadores Aritméticos
 
@@ -136,7 +136,7 @@ int SomaValores()
     return 8+2;
 }
 */
-
+/*
 var soma = SomaValores(3,5);
 Console.WriteLine(soma);
 
@@ -153,4 +153,23 @@ string NomeEIdade(string nome, int idade)
 {
     //return nome + idade;
     return "Meu nome é " + nome + "e tenho " + idade + " anos";
+}
+*/
+
+//Array List
+
+using System.Collections;
+
+var arrayList = new ArrayList();
+arrayList.Add(1); //0
+arrayList.Add("Lucivaldo"); //1
+arrayList.Add(true); //2
+
+//Console.WriteLine(arrayList[1]);
+
+arrayList.RemoveAt(1);
+//arrayList.Clear();
+foreach(var item in arrayList)
+{
+    Console.WriteLine(item);
 }
