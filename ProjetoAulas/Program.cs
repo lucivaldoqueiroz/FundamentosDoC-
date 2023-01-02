@@ -22,3 +22,9 @@ char flag = 'C';
 Console.WriteLine(flag);
 bool ativo = true;
 Console.WriteLine(ativo);
+
+//Constantes - Não pode ser alterado o valor de uma constante que foi atribuida a variável.
+
+const string descricao = "Curso CSHARP";
+descricao = "Curso";
+Console.WriteLine(descricao);
