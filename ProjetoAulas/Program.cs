@@ -401,7 +401,7 @@ foreach(var letra in "Lucivaldo Queiroz")
 */
 
 // WHILE / DO WHILE
-
+/*
 var i = 3;
 while (i < 2)
 {
@@ -416,3 +416,25 @@ do
     Console.WriteLine("var j = " + j);
     j++;
 } while (j < 2);
+*/
+
+// BREAK/ CONTINUE
+
+var i = 0;
+while (i < 5)
+{
+    if(i < 2)
+    {
+         Console.WriteLine("Continuando...");
+         i++;
+         continue;
+    }
+    Console.WriteLine("var i = " + i);
+    i++;
+
+    if(i == 2)
+    {
+         Console.WriteLine("valor de i é igual a 2 (dois)");
+         break;
+    }
+}
