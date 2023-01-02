@@ -157,7 +157,7 @@ string NomeEIdade(string nome, int idade)
 */
 
 //Array List
-
+/*
 using System.Collections;
 
 var arrayList = new ArrayList();
@@ -170,6 +170,34 @@ arrayList.Add(true); //2
 arrayList.RemoveAt(1);
 //arrayList.Clear();
 foreach(var item in arrayList)
+{
+    Console.WriteLine(item);
+}
+*/
+
+//Array List tipado
+
+var arrayTipadoNumero = new int[3] {1, 2, 3};
+
+arrayTipadoNumero[0] = 5;
+arrayTipadoNumero[1] = 5;
+arrayTipadoNumero[2] = 10;
+
+//Array.Resize(ref arrayTipadoNumero, 100);
+
+//arrayTipadoNumero[10] = 100;
+
+foreach(var item in arrayTipadoNumero)
+{
+    Console.WriteLine(item);
+}
+
+var arrayTipadoString = new string[2] {"Rafael", "Almeida"};
+
+arrayTipadoString[0] = "Lucivaldo";
+arrayTipadoString[1] = "Queiroz";
+
+foreach(var item in arrayTipadoString)
 {
     Console.WriteLine(item);
 }
