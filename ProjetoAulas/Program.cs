@@ -375,11 +375,26 @@ switch (diaDaSemana)
 */
 
 // FOR 
-
+/*
 var lista = new List<string>() {"Rafael", "Curso", "CSHARP"};
 
 for(var i = 0; i < lista.Count; i++)
 {
 var nome = lista[i];
     Console.WriteLine(nome);
+}
+*/
+
+//FOREACH
+
+var lista = new List<string>() {"Rafael", "Curso", "CSHARP"};
+
+foreach(string item in lista)
+{
+     Console.WriteLine(item);
+}
+
+foreach(var letra in "Lucivaldo Queiroz")
+{
+    Console.WriteLine(letra);
 }
