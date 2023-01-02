@@ -112,7 +112,7 @@ Console.WriteLine(status);
 // Funções
 
 
-
+/*
 EscreverNome();
 
 void EscreverNome()
@@ -134,4 +134,23 @@ string NomeCompleto()
 int SomaValores()
 {
     return 8+2;
+}
+*/
+
+var soma = SomaValores(3,5);
+Console.WriteLine(soma);
+
+int SomaValores(int a, int b)
+{
+    return a + b;
+
+}
+
+// var nome = NomeEIdade("Meu nome é Lucivaldo e tenho a seguinte idade: ", 30);
+   var nome = NomeEIdade("Lucivaldo", 30);
+Console.WriteLine(nome);
+string NomeEIdade(string nome, int idade)
+{
+    //return nome + idade;
+    return "Meu nome é " + nome + "e tenho " + idade + " anos";
 }
