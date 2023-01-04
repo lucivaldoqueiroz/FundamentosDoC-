@@ -12,7 +12,8 @@ namespace Application
            //AulaPropriedadeSomenteLeitura();
            //AulaHeranca();
            //Funcionario();
-           AulaClassesSelada();
+           //AulaClassesSelada();
+           AulaClasseAbstrata();
 
         }
 
@@ -79,6 +80,13 @@ namespace Application
 
          Console.WriteLine(configuracao.Host);
         }
+
+        private static void AulaClasseAbstrata()
+    {
+        var cachorro = new Cadastro.Cachorro();
+        cachorro.Nome = "Dog";
+        cachorro.ImprimirDados();
+    }
 
     }
 }
