@@ -9,7 +9,9 @@ namespace Application
            // Console.WriteLine("Hello World!");
 
            //AulaClasses();
-           AulaPropriedadeSomenteLeitura();
+           //AulaPropriedadeSomenteLeitura();
+           AulaHeranca();
+           Funcionario();
 
         }
 
@@ -35,5 +37,34 @@ namespace Application
            Console.WriteLine(produto.Estoque);
 
         }
+
+        private static void AulaHeranca()
+        {
+         var pessoaFisica = new Cadastro.PessoaFisica();
+         pessoaFisica.Id = 1;
+         pessoaFisica.Endereco = "Endereço Teste";
+         pessoaFisica.Cidade = "Cidade Teste";
+         pessoaFisica.Cep = "1234567";
+         pessoaFisica.CPF = "12345678912";
+
+         pessoaFisica.ImprimirDados();
+         pessoaFisica.ImprimirCPF();
+         
+        }
+
+         private static void Funcionario()
+        {
+         var funcionario = new Cadastro.Funcionario();
+         funcionario.Id = 1;
+         funcionario.Endereco = "Endereço Teste";
+         funcionario.Cidade = "Cidade Teste";
+         funcionario.Cep = "1234567";
+         funcionario.CPF = "123456789124";
+
+         funcionario.ImprimirDados();
+         funcionario.ImprimirCPF();
+         
+        }
+
     }
 }
