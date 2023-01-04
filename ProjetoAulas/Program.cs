@@ -10,8 +10,9 @@ namespace Application
 
            //AulaClasses();
            //AulaPropriedadeSomenteLeitura();
-           AulaHeranca();
-           Funcionario();
+           //AulaHeranca();
+           //Funcionario();
+           AulaClassesSelada();
 
         }
 
@@ -64,6 +65,19 @@ namespace Application
          funcionario.ImprimirDados();
          funcionario.ImprimirCPF();
          
+        }
+
+         private static void AulaClassesSelada()
+        {
+         /*var configuracao = new Cadastro.Configuracao();
+         configuracao.Host = "localhost";
+*/
+         var configuracao = new Cadastro.Configuracao
+         {
+            Host = "localhost"
+         };
+
+         Console.WriteLine(configuracao.Host);
         }
 
     }
