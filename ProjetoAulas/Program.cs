@@ -14,7 +14,8 @@ namespace Application
            //Funcionario();
            //AulaClassesSelada();
            //AulaClasseAbstrata();
-           AulaRecord();
+           //AulaRecord();
+           AulaInterface();
 
         }
 
@@ -111,6 +112,15 @@ namespace Application
       Console.WriteLine(curso2.Descricao);
         // Console.WriteLine(curso1.Equals (curso2));
        //Console.WriteLine(curso1 == curso2);
+    }
+
+    private static void AulaInterface(){
+      var notificacaoCliente = new Cadastro.NotificacaoCliente();
+      notificacaoCliente.Notificar();
+      notificacaoCliente.NotificarOutros();
+
+      Cadastro.INotificacao notificacao = new Cadastro.NotificacaoFuncionario();
+      notificacao.Notificar();   
     }
 
     }
