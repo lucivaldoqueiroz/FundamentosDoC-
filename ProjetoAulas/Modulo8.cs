@@ -99,7 +99,44 @@ namespace Cadastro
                 return "Cachorro é um bom amigo";
             }
         }
+/*
+        public record Curso
+        {
+            public int Id { get; set; }
+            public String Descricao { get; set; }
+/*
+            public override bool Equals(object? obj)
+            {
+               
+                if (obj == null) return false;
+                if(obj is Curso curso)
+                {
+                    return Id == curso.Id && Descricao == curso.Descricao;
+                }
 
+                return base.Equals(obj);
+               
+        }
 
+        public static bool operator == (Curso a, Curso b)
+        {
+            return a.Equals(b);
+        }
+        public static bool operator != (Curso a, Curso b)
+        {
+            return !(a == b);
+        }
+*/
+/*
+        }
+     */   
 
+     public record Curso(int Id, string Descricao);
+     
+     public class CursoTeste
+     {
+
+         public int Id { get; set; }
+            public String Descricao { get; set; }
+     }
 }
