@@ -128,7 +128,10 @@ namespace Application
         private static void Conversores()
         {
             var conversores = new Conversores.Conversor();
-            conversores.ConvertAndParse();
+            //conversores.ConvertAndParse();
+            conversores.AulaTryParse();
         }
+
+        
     }
 }
