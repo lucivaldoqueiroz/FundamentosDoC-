@@ -16,7 +16,8 @@ namespace Application
             //AulaClasseAbstrata();
             //AulaRecord();
             //AulaInterface();
-            Conversores();
+            //Conversores();
+            TrabalhandoComStrings();
 
         }
 
@@ -130,6 +131,13 @@ namespace Application
             var conversores = new Conversores.Conversor();
             //conversores.ConvertAndParse();
             conversores.AulaTryParse();
+        }
+
+           private static void TrabalhandoComStrings()
+        {
+            var trabalhandoComStrigns = new Modulo10.TrabalhandoComStrings();
+            trabalhandoComStrigns.ConverterParaLetrasMinusculas();
+            
         }
 
         
