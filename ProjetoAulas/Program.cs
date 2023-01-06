@@ -141,7 +141,8 @@ namespace Application
             //trabalhandoComStrigns.ConverterParaLetrasMaiusculas();
             //trabalhandoComStrigns.AulaSubstring();
             //trabalhandoComStrigns.AulaRange();
-            trabalhandoComStrigns.AulaContains();
+            //trabalhandoComStrigns.AulaContains();
+            trabalhandoComStrigns.AulaTrim();
             
         }
 
