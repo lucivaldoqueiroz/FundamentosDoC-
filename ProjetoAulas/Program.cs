@@ -17,9 +17,8 @@ namespace Application
             //AulaRecord();
             //AulaInterface();
             //Conversores();
-            //TrabalhandoComStrings();
-            //TrabalhandoComSubstring();
-            TrabalhandoComRange();
+            TrabalhandoComStrings();
+            
 
         }
 
@@ -135,13 +134,14 @@ namespace Application
             conversores.AulaTryParse();
         }
 
-           private static void TrabalhandoComRange()
+           private static void TrabalhandoComStrings()
         {
             var trabalhandoComStrigns = new Modulo10.TrabalhandoComStrings();
             //trabalhandoComStrigns.ConverterParaLetrasMinusculas();
             //trabalhandoComStrigns.ConverterParaLetrasMaiusculas();
             //trabalhandoComStrigns.AulaSubstring();
-            trabalhandoComStrigns.AulaRange();
+            //trabalhandoComStrigns.AulaRange();
+            trabalhandoComStrigns.AulaContains();
             
         }
 
