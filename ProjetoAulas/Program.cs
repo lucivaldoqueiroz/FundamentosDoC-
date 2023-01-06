@@ -17,7 +17,8 @@ namespace Application
             //AulaRecord();
             //AulaInterface();
             //Conversores();
-            TrabalhandoComStrings();
+            //TrabalhandoComStrings();
+            TrabalhandoComSubstring();
 
         }
 
@@ -133,10 +134,12 @@ namespace Application
             conversores.AulaTryParse();
         }
 
-           private static void TrabalhandoComStrings()
+           private static void TrabalhandoComSubstring()
         {
             var trabalhandoComStrigns = new Modulo10.TrabalhandoComStrings();
-            trabalhandoComStrigns.ConverterParaLetrasMinusculas();
+            //trabalhandoComStrigns.ConverterParaLetrasMinusculas();
+            //trabalhandoComStrigns.ConverterParaLetrasMaiusculas();
+            trabalhandoComStrigns.AulaSubstring();
             
         }
 
