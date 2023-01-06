@@ -68,5 +68,22 @@ public class TrabalhandoComStrings
 
     }
 
+     public void AulaReplace()
+    {
+        string teste = "Curso cSharp";
+        Console.WriteLine(teste);
+        Console.WriteLine(teste.Replace("cSharp", "C#"));
+
+    }
+
+     public void AulaLenght()
+    {
+        string teste = Console.ReadLine();
+        Console.WriteLine(teste);
+        Console.WriteLine(teste.Length);
+        
+
+    }
+
 
 }
