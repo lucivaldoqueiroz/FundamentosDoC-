@@ -142,7 +142,8 @@ namespace Application
             //trabalhandoComStrigns.AulaSubstring();
             //trabalhandoComStrigns.AulaRange();
             //trabalhandoComStrigns.AulaContains();
-            trabalhandoComStrigns.AulaTrim();
+            //trabalhandoComStrigns.AulaTrim();
+            trabalhandoComStrigns.AulaStartWithEndsWith();
             
         }
 
