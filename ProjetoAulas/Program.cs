@@ -153,7 +153,8 @@ namespace Application
             private static void TrabalhandoComData()
         {
             var trabalhandoComDatas = new Modulo11.TrabalhandoComDatas();
-            trabalhandoComDatas.AulaDateTime();
+            //trabalhandoComDatas.AulaDateTime();
+            trabalhandoComDatas.AulaSubstraindoDatas();
             
             
         }
