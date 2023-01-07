@@ -32,8 +32,16 @@ public class TrabalhandoComDatas
         Console.WriteLine((int)diff.TotalDays);
         Console.WriteLine((int)diff.TotalHours);
         Console.WriteLine(diff2);
-        
-        
+    }
+
+      public void AdicionandoDiaMesEAno()
+    {
+      
+        var date1 = DateTime.Now;
+
+        Console.WriteLine(date1.AddDays(5).ToString("dd-mm-yyyy HH:mm:ss"));
+        Console.WriteLine(date1.AddMonths(5));
+        Console.WriteLine(date1.AddYears(5));
     }
 
 }
