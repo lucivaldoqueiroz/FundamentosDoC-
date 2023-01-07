@@ -77,4 +77,15 @@ public class TrabalhandoComDatas
         
     }
 
+     public void AulaTimeOnly()
+    {
+        var somenteTime = new TimeOnly(22,50,22);
+        var somenteTime2 = TimeOnly.Parse("23:55:01");
+
+        Console.WriteLine(somenteTime);
+        Console.WriteLine(somenteTime2);
+        
+        
+    }
+
 }
