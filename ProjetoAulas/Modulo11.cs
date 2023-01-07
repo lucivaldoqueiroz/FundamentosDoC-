@@ -63,6 +63,17 @@ public class TrabalhandoComDatas
         var date1 = DateTime.Now;
 
         Console.WriteLine(date1.DayOfWeek);
+
+    }
+
+    public void AulaDateOnly()
+    {
+        var somenteData = new DateOnly(2022,12,2);
+        var somenteData1 = DateOnly.Parse("2022-02-01");
+
+        Console.WriteLine(somenteData);
+        Console.WriteLine(somenteData1);
+        
         
     }
 

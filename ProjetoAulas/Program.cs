@@ -157,7 +157,8 @@ namespace Application
             //trabalhandoComDatas.AulaSubstraindoDatas();
             //trabalhandoComDatas.AdicionandoDiaMesEAno();
             //trabalhandoComDatas.AdicionandoHoraMinutosSegundos();
-            trabalhandoComDatas.RecuperandoDiaDaSemana();
+            //trabalhandoComDatas.RecuperandoDiaDaSemana();
+            trabalhandoComDatas.AulaDateOnly();
             
             
         }
