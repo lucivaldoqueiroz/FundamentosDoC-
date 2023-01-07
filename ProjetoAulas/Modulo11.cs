@@ -58,4 +58,12 @@ public class TrabalhandoComDatas
         
     }
 
+    public void RecuperandoDiaDaSemana()
+    {
+        var date1 = DateTime.Now;
+
+        Console.WriteLine(date1.DayOfWeek);
+        
+    }
+
 }
