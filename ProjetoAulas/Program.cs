@@ -17,7 +17,8 @@ namespace Application
             //AulaRecord();
             //AulaInterface();
             //Conversores();
-            TrabalhandoComStrings();
+            //TrabalhandoComStrings();
+            TrabalhandoComData();
             
 
         }
@@ -145,7 +146,15 @@ namespace Application
             //trabalhandoComStrigns.AulaTrim();
             //trabalhandoComStrigns.AulaStartWithEndsWith();
             //trabalhandoComStrigns.AulaReplace();
-            trabalhandoComStrigns.AulaLenght();
+            //trabalhandoComStrigns.AulaLenght();
+            
+        }
+
+            private static void TrabalhandoComData()
+        {
+            var trabalhandoComDatas = new Modulo11.TrabalhandoComDatas();
+            trabalhandoComDatas.AulaDateTime();
+            
             
         }
 
