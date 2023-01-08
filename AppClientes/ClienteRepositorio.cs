@@ -119,4 +119,19 @@ public class ClienteRepositorio
         Console.ReadKey();
     }
 
+    public void GravarDadosClientes()
+    {
+        var json = System.Text.Json.JsonSerializer.Serialize(clientes);
+        File.WriteAllText("clientes.txt", json);
+    }
+    public void LerDadosClientes()
+    {
+        if(File.Exists("clientes.txt")){
+             var dados = File.ReadAllText("clientes.txt");
+             var clientesArquivo = System.Text.Json.JsonSerializer.Deserialize<List<Cliente>>(dados);
+        
+        clientes.AddRange(clientesArquivo);
+        }
+       
+    }
 }

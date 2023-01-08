@@ -8,6 +8,7 @@ class Program
 
     static void Main(string[] args)
     {
+        _clienteRepositorio.LerDadosClientes();
         while(true)
         {
             Menu();
@@ -66,6 +67,7 @@ class Program
         }
         case 5:
         {
+            _clienteRepositorio.GravarDadosClientes();
             Environment.Exit(0);
             break;
         }
