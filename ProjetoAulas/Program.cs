@@ -20,7 +20,8 @@ namespace Application
             //TrabalhandoComStrings();
             //TrabalhandoComData();
             //TrabalhandoComExcecoes();
-            TrabalhandoComArquivos();
+            //TrabalhandoComArquivos();
+            TrabalhandoComLinq();
         }
 
         private static void AulaClasses()
@@ -183,6 +184,17 @@ namespace Application
             
             
         }
+               private static void TrabalhandoComLinq()
+        {
+            var trabalhandoComLinq = new Modulo14.TrabalhandoComLinq();
+            trabalhandoComLinq.AulaWhere();
+            
+
+            
+            
+        }
+
+        
 
 
         
