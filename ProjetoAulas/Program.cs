@@ -189,7 +189,8 @@ namespace Application
             var trabalhandoComLinq = new Modulo14.TrabalhandoComLinq();
             //trabalhandoComLinq.AulaWhere();
             //trabalhandoComLinq.AulaOrdenacao();
-            trabalhandoComLinq.AulaTake();
+            //trabalhandoComLinq.AulaTake();
+            trabalhandoComLinq.AulaCount();
             
 
             
