@@ -18,9 +18,8 @@ namespace Application
             //AulaInterface();
             //Conversores();
             //TrabalhandoComStrings();
-            TrabalhandoComData();
-            
-
+            //TrabalhandoComData();
+            TrabalhandoComExcecoes();
         }
 
         private static void AulaClasses()
@@ -163,6 +162,16 @@ namespace Application
             
             
         }
+
+            private static void TrabalhandoComExcecoes()
+        {
+            var TrabalhandoComExcecoes = new Modulo12.TrabalhandoComException();
+            TrabalhandoComExcecoes.AulaGerandoException();
+
+            
+            
+        }
+
 
         
 
