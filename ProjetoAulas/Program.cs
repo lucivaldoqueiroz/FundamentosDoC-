@@ -177,7 +177,8 @@ namespace Application
         {
             var trabalhandoComArquivos = new Modulo13.TrabalhandoComArquivos();
             //trabalhandoComArquivos.AulaCriandoArquivo();
-            trabalhandoComArquivos.AulaLendoArquivo();
+            //trabalhandoComArquivos.AulaLendoArquivo();
+            trabalhandoComArquivos.AulaExcluindoArquivo();
 
             
             

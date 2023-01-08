@@ -23,6 +23,14 @@ public class TrabalhandoComArquivos
             var linha = ler.ReadLine();
             Console.WriteLine(linha);
         }
+    }
+
+    public void AulaExcluindoArquivo()
+    {
+        if(File.Exists("cadastro.txt"))
+        {
+            File.Delete("Cadastro.txt");
+        }
 
     }
 }
