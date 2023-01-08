@@ -26,4 +26,16 @@ public void AulaWhere()
     }
 }
 
+public void AulaOrdenacao()
+{
+    //var numeros = new int[] {10, 6, 5, 50, 15, 2};
+    var nomes = new string[] {"Rafael", "Lucivado", "Bruno"};
+    //var resultado = numeros.OrderBy(p => p);
+    var resultado = nomes.OrderByDescending(p => p);
+    foreach (var numero in resultado)
+    {
+        Console.WriteLine(numero);
+    }
+}
+
 }

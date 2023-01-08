@@ -187,7 +187,8 @@ namespace Application
                private static void TrabalhandoComLinq()
         {
             var trabalhandoComLinq = new Modulo14.TrabalhandoComLinq();
-            trabalhandoComLinq.AulaWhere();
+            //trabalhandoComLinq.AulaWhere();
+            trabalhandoComLinq.AulaOrdenacao();
             
 
             
